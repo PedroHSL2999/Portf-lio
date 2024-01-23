@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap'); 
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: rgb(25, 25, 25);
+    /* Cor do plano de Fundo */
+    color: #ffffff;
+    /* Altera a cor dos Textos */
+    /* Para escolher uma cor do texto que combine com a cor de fundo é muito importante escolhermos uma paleta de cor que combine entre  si, para isso é comum que desenvolvedores Front-end utilize softwares que combinem esse resultado como o Adobe color*/
+
+}
+
+.titulo_destaque {
+    color: #22d4fd;
+    /* Classe para colocar cor no destaque do h1 */
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 8px;
+    /* Redimensionando a Imagem */
+}
+
+* {
+    /* O símbolo * seleciona tudo do arquivo html */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    content: 0;
+}
+
+.container{
+    padding: 8% 15%;
+    display: flex;
+    /* Alinha os filhos em linhas -> ou colunas */
+    align-items: center;
+    /* Alinha os itens no centro do maior item */
+    justify-content: space-between;
+    /* Separa os elementos da página */
+}
+
+.container__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container__titulo{
+    font-size: 36px;
+    /* margin-bottom: 15px; */
+    font-family: 'Krona one', sans-serif;
+    /* Para colocar margem em apenas uma direção usasse margin-bottom para baixo margin-top para cima... */
+}
+
+.container__texto{
+    font-size: 22px;
+}
+
+.container__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    font-size: 24px;
+    gap: 32px;
+    
+    
+}
+
+.link{
+    border: 2px solid #22D4FD;
+    border-radius: 8px;
+    text-align: center;
+    color:#F6F6F6;
+    width: 378px;
+    height: 30px;
+    font-weight: 600;
+    /* margin-top: 15px; */
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Montserra', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 21.5px 0;
+    gap: 16px;
+}
+
+.link:hover{
+    background-color: black;
+}
+
+.container__subtitulo{
+    display: flex;
+    font-family: 'Krona one', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.logo__linkedin{
+    width: 34px;
+    height: 34px;
+}
+
+.logo__github{
+    width: 34px;
+    height: 34px;
+}
+
+.rodape{
+    color: black;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserra', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cabecalho__links{
+    color: #22D4FD;
+    text-decoration: none;  
+    font-family: 'Montserra', sans-serif;
+    font-size: 24px;
+    padding: 5px 10px;  
+    gap: 16px;
+}
+
+.cabecalho__links:hover{
+    color: #007bff;
+} 
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
